@@ -23,3 +23,55 @@
   border-style: dashed;
   border-color: rgba(var(--color-foreground), 0.5);
 }
+
+.facets__form-vertical details:nth-child(5) .parent-display .facet-checkbox__text{
+  display: none;
+}
+
+.facets__form-vertical details:nth-child(5) .facets__label input{
+  width: 32px;
+  height: 32px;
+  border: 1px solid #DCDCDC;
+  border-radius: 50%;
+}
+
+.facets__form-vertical details:nth-child(5) .facets-layout{
+  display: flex;
+  flex-wrap: wrap ;
+}
+
+.facets__form-vertical details:nth-child(5) .facets-layout svg{
+  margin: 8px 0px 0px 5px;
+}
+
+.facets__form-vertical details:nth-child(5) .facet-checkbox>input[type=checkbox]:checked~.icon-checkmark{
+  visibility: hidden;
+}
+
+.facets__form-vertical details:nth-child(3){  
+  display: none;
+}
+
+.facets__form-vertical .active-facets-desktop{
+  display: none;
+}
+
+.facets__disclosure-vertical:nth-child(4){
+  border: none  ;
+}
+
+.facets__disclosure-vertical .facets__summary .filter-summary-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.facets__disclosure-vertical .facets__summary svg{
+  width: 12px;
+  height: 16px;
+}
+
+.mis{
+  display: none;
+}
+.media--portrait {padding-bottom: 50% !important;}
