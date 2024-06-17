@@ -1,0 +1,283 @@
+{
+  "sections": {
+    "slideshow_9TNY94": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_ckqRUR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group.png",
+            "heading": "Up to 50% Off",
+            "heading_size": "h1",
+            "subheading": "SUMMER SALE",
+            "button_label": "SHOP NOW",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_VYHj73": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1_1.png",
+            "heading": "Up to 50% Off",
+            "heading_size": "h1",
+            "subheading": "SUMMER SALE",
+            "button_label": "SHOP NOW",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-e7e7d7be-fdf6-45cd-8c1b-7bd167f686e9",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_ckqRUR",
+        "slide_VYHj73"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 9,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "FEATURED COLLECTIONS",
+        "heading_size": "h2",
+        "description": "<h3>Best Sellers<\/h3>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-sellers",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collection_list_kbHCyg": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_y3NbRF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spring-2022-lookbook"
+          }
+        },
+        "featured_collection_3AtVWb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spring-edit"
+          }
+        },
+        "featured_collection_rUrHTp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "new-arrivals"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_y3NbRF",
+        "featured_collection_3AtVWb",
+        "featured_collection_rUrHTp"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_pbwhEj": {
+      "type": "image-banner",
+      "blocks": {
+        "text_MgPB3r": {
+          "type": "text",
+          "settings": {
+            "text": "IN FOR THE SEASON",
+            "text_style": "body"
+          }
+        },
+        "heading_HenBMy": {
+          "type": "heading",
+          "settings": {
+            "heading": "SUMMER DRESSES",
+            "heading_size": "h2"
+          }
+        },
+        "buttons_Aayhwi": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/trending",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_MgPB3r",
+        "heading_HenBMy",
+        "buttons_Aayhwi"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group30.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-right",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "featured_collection_nczpYh": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "NEW ARRIVALS",
+        "heading_size": "h1",
+        "description": "<h3>Latest & Greatest<\/h3>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "latest-greatest",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "my_featured_collection_dTdENq": {
+      "type": "my-featured-collection",
+      "blocks": {
+        "tab_wPtKPJ": {
+          "type": "tab",
+          "settings": {
+            "tabs": "WOMEN",
+            "collection_tab": "under-99-99"
+          }
+        },
+        "tab_GhpDDe": {
+          "type": "tab",
+          "settings": {
+            "tabs": "SWEATERS",
+            "collection_tab": "sweaters"
+          }
+        },
+        "tab_tybW3A": {
+          "type": "tab",
+          "settings": {
+            "tabs": "BOTTOMS",
+            "collection_tab": "bottoms"
+          }
+        },
+        "tab_TG9UF9": {
+          "type": "tab",
+          "settings": {
+            "tabs": "ACCESSORIES",
+            "collection_tab": "accessories"
+          }
+        },
+        "tab_MqiK8Q": {
+          "type": "tab",
+          "settings": {
+            "tabs": "MEN",
+            "collection_tab": "men"
+          }
+        }
+      },
+      "block_order": [
+        "tab_wPtKPJ",
+        "tab_GhpDDe",
+        "tab_tybW3A",
+        "tab_TG9UF9",
+        "tab_MqiK8Q"
+      ],
+      "settings": {
+        "title": "LUXURIOUSLY AFFORDABLE",
+        "heading_size": "h1",
+        "description": "<h3>Under $99.99<\/h3>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "under-99-99",
+        "products_to_show": 6,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "slideshow_9TNY94",
+    "featured_collection",
+    "collection_list_kbHCyg",
+    "image_banner_pbwhEj",
+    "featured_collection_nczpYh",
+    "my_featured_collection_dTdENq"
+  ]
+}
