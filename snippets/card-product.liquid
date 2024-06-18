@@ -39,7 +39,11 @@
       assign ratio = 1
     endif
   -%}
-  <div class="card-wrapper product-card-wrapper underline-links-hover">
+  <div class="card-wrapper product-card-wrapper underline-links-hover"
+  {% for variant in card_product.variants %}
+    data-v-id = "{{ variant.id }}"
+{% endfor %}  
+  >
     <div
       class="
         card card--{{ settings.card_style }}
@@ -123,7 +127,7 @@
               {% endif %}
             >
               <a
-                href="{{ card_product.url }}"
+                href="#"
                 id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
                 class="full-unstyled-link"
                 aria-labelledby="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }} NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
@@ -160,7 +164,7 @@
             {% endif %}
           >
             <a
-              href="{{ card_product.url }}"
+              href="#"
               id="CardLink-{{ section_id }}-{{ card_product.id }}"
               class="full-unstyled-link"
               aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
@@ -295,11 +299,16 @@
               {% endif %}
             {%- endif -%}
             </div>
-            <div class="my_variant__color">
+           
+              
+            <div class="my_variant__color"  
+            
+          >
                 {% for option in card_product.options_with_values %}
                     {% if option.name == 'Color' %}
                       {% for color in option.values %}
                         <span class="my_variant__color__code" style="background-color:{{ color }} ;"></span>
+                        <span class=""></span>
                       {% endfor %}
                     {% endif %}   
                 {% endfor %}
